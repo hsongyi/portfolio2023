@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* main */
+.main.contents {width: calc(100% - 335px); background-color: #ffc6b42e;}
+.main_visual {display: flex; flex-direction: column; justify-content: space-between; height: 412px;}
+.main_visual .info { padding: 40px 25px;}
+.main_visual .info p {font-family: Orbit; font-size: 1.5rem; margin-top: 15px;}
+.main_visual .info .name.eng {font-family: Agbalumo; font-size: 3.6rem;}
+.main_visual .info .name.ko {font-size: 2rem; margin-top: 40px;}
+.main_visual .info_box {padding: 17px; background-color: #dc4b4bb5;}
+.main_visual .info_box .job { color: #fff; font-size: 1.5rem; font-family: Orbit;}
+
+section {width: 100%; padding: 20px 50px;}
+section h1 {margin: 10px; font-family:Agbalumo; font-size: 3rem; color: #666;}
+
+section.about .character { width: 100%; margin: 25px 0; display: flex; justify-content: space-between;}
+section.about .character li {width: calc(100% / 3); margin: 0 5px; padding: 10px; border: 5px dashed #9d9d9dd1;  border-radius: 7px; transition: 0.2s ease-in-out;}
+section.about .character li:hover {border: 5px solid #dc4b4bb5; background-color: #fff;}
+section.about .character li .img { display: inline-block;  width: 100%; height: 280px; margin-bottom: 15px; background-size: cover; background-position: center; background-repeat: no-repeat;}
+section.about .character li:nth-child(1) .img {background-image:url(/img/career_01.png)}
+section.about .character li:nth-child(2) .img {background-image:url(/img/career_02.png)}
+section.about .character li:nth-child(3) .img {background-image:url(/img/career_03.png)}
+section.about .character li .title {font-size: 1.5rem; font-family: Orbit; }
+section.about .character li .cont {padding: 20px 0; font-size: 1.2rem; }
+section.about .character li .cont p {margin-bottom: 5px;}
+section.career .cont { width: 100%; margin: 25px 0px; padding: 25px; border: 5px dashed #9d9d9dd1; border-radius: 7px; transition: 0.2s ease-in-out;}
+section.career .cont:hover {background-color: #fffc; border: 5px solid #dc4b4b8c;}
+section.career .cont p {font-size: 1.3rem; margin: 8px 0;}
+section.skill {width: 100%; background:url(/img/cont_bg1.png) no-repeat center; background-size: cover;}
+section.skill.sub_slider .center {max-width: 1200px; margin: 35px auto;}
+section.skill.sub_slider .center .slick-slide {margin-right: 169px; opacity: 0.65; transition: 0.3s ease-in-out;}
+section.skill.sub_slider .center .slick-slide:hover {opacity: 1;}
+section.skill.sub_slider .center .slick-center {opacity: 1;}
+section.skill h1 {text-align: center; color: #434343;}
+
+section.portfolio {height: 300px;}
